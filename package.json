@@ -1,7 +1,7 @@
 {
   "name": "gitignore-to-minimatch",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.0",
   "description": "Convert gitignore patterns to minimatch patterns.",
   "author": "Lu-Jiejie <lu-jiejie@outlook.com>",
