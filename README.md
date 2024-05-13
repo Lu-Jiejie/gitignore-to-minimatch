@@ -24,6 +24,8 @@ const minimatchPatterns = gitignoreToMinimatch('dist')
 
 However, if you set the pattern `dist` in `.gitignore`, it may match the file `dist` and the directory `dist/` at the same time. A single minimatch pattern can't represent this situation.
 
+For the result `['/**/dist', '/**/dist/**']`, `/**/dist` matches the file or directory `dist` without its contents, and `/**/dist/**` matches the whole directory `dist/` with all its contents.
+
 ## Motivation
 
 In my another repository [ncreate](https://github.com/Lu-Jiejie/ncreate), I need to duplicate an existing local repository to a new one but ignore some files based on the `.gitignore` file. I found that there is a few differences between `.gitignore` and `minimatch` patterns. So...
