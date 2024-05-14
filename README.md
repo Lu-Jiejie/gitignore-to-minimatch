@@ -1,6 +1,9 @@
 # gitignore-to-minimatch
 
-[![NPM Version](https://img.shields.io/npm/v/gitignore-to-minimatch?style=flat&color=ccc)](https://www.npmjs.com/package/gitignore-to-minimatch)
+[![npm version][npm-version-badge]][npm-version-href]
+[![minzip][minzip-badge]][minizip-href]
+[![jsdocs][jsdocs-badge]][jsdocs-href]
+[![license][license-badge]][license-href]
 
 Convert [gitignore](https://git-scm.com/docs/gitignore) patterns to [minimatch](https://github.com/isaacs/minimatch) patterns.
 
@@ -33,3 +36,13 @@ In my another repository [ncreate](https://github.com/Lu-Jiejie/ncreate), I need
 ## Reference
 
 [gitignore documentation](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring)
+
+<!-- Badge -->
+[npm-version-badge]: https://img.shields.io/npm/v/gitignore-to-minimatch?style=flat&color=ddd&labelColor=444
+[npm-version-href]: https://www.npmjs.com/package/gitignore-to-minimatch
+[minzip-badge]: https://img.shields.io/bundlephobia/minzip/gitignore-to-minimatch?style=flat&color=ddd&labelColor=444&label=minizip
+[minizip-href]: https://bundlephobia.com/result?p=gitignore-to-minimatch
+[jsdocs-badge]: https://img.shields.io/badge/jsDocs-reference-ddd?style=flat&color=ddd&labelColor=444
+[jsdocs-href]: https://www.jsdocs.io/package/gitignore-to-minimatch
+[license-badge]: https://img.shields.io/github/license/Lu-Jiejie/gitignore-to-minimatch?style=flat&color=ddd&labelColor=444
+[license-href]: https://github.com/Lu-Jiejie/gitignore-to-minimatch/blob/main/LICENSE
