@@ -12,7 +12,11 @@
     "url": "git+https://github.com/Lu-Jiejie/gitignore-to-minimatch.git"
   },
   "bugs": "https://github.com/Lu-Jiejie/gitignore-to-minimatch/issues",
-  "keywords": [],
+  "keywords": [
+    "gitignore",
+    "minimatch",
+    "pattern"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
